@@ -1,0 +1,112 @@
+
+.banner-wrap{
+background-image: url("images/menu.jpg");
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+background-size:cover;
+background-position: center;
+padding: 150px 0px; /*arriba derecha abajo izq*/
+text-align: center;
+text-shadow: black 2px 2px;
+text-decoration:
+}
+
+.banner-wrap h1 {
+    color:white;
+    background-color: linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1));
+    font-size: 45px;
+    margin:0px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.banner-wrap p {
+    color:whitesmoke;
+    font-size: 24px;
+    opacity: 0.85;
+    padding: 10px 40px;
+}
+
+.banner-wrap buttom {
+    background-color: deepskyblue;
+    color:white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+.banner-wrap buttom:hover {
+    background-color: whitesmoke;
+    color:deepskyblue;
+}
+
+.contenedor-form{
+width:430px;
+height:120px;
+color:white;
+background-color:darkblue;
+border: 3px solid deepskyblue;
+border-radius: 25px;
+opacity: 0.75;
+position:absolute;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items:center;
+text-align: center;
+padding: 30px 5px;
+}
+
+.wrap1{
+display: flex;
+flex-direction: row;
+justify-content:flex-end;
+margin-right: 500px;
+}
+
+.Cards-wrap{
+    width:100%;
+    height:400px; 
+    margin:0px;
+    display: inherit;    
+}
+
+.pepe{
+   color:#;
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration-color: black;
+    display:flex;  
+    flex-direction:row;  
+    align-items:flex-start;
+    width:100%;
+    }
+
+.Cards-Container{
+    display:flex;  
+    flex-direction:row-reverse;  
+    align-items: stretch;
+    justify-content: space-between; 
+    margin-left: 230px;
+    width:80%;
+}
+.Cards{
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 0px 20px;
+}
+
+footer {
+    background: #404042; 
+        color: white;
+    padding: 30px 50px;
+    text-overflow: ellipsis;
+}
+
+footer p {
+    margin: 0px;
+}
